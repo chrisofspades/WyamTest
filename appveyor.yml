@@ -19,7 +19,7 @@ build_script:
 
 deploy:
   provider: FTP
-  protocol: ftps
+  protocol: ftp
   host: ftp.chrispeoples.com
   username: chrispeoples
   password:
