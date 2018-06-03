@@ -17,6 +17,9 @@ install:
 build_script:
   - ..\Wyam\wyam --output ..\output
 
+artifacts:
+  - path: output
+
 deploy:
   provider: FTP
   protocol: ftp
@@ -24,4 +27,4 @@ deploy:
   username: chrispeoples
   password:
     secure: hLl0XSkCEf/uWYuZrsxnLA==
-  folder: chrispeoples.com/wyamtest/
+  folder: chrispeoples.com\wyamtest
