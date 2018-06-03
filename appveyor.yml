@@ -28,3 +28,4 @@ deploy:
   password:
     secure: hLl0XSkCEf/uWYuZrsxnLA==
   folder: chrispeoples.com\wyamtest
+  application: output.zip
