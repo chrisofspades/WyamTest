@@ -18,7 +18,7 @@ build_script:
   - ..\Wyam\wyam --output ..\output
 
 artifacts:
-  - path: output
+  - path: ..\output
 
 deploy:
   provider: FTP
